@@ -1,0 +1,2 @@
+INSERT INTO profiles (name, photo, scores )
+VALUES ("John", "https://www.gannett-cdn.com/-mm-/f02aea9b5713f91a5c3ac3a1b810e978f08c7804/c=42-0-1638-898/local/-/media/2018/01/02/USATODAY/usatsports/img_wtw_spongebob01_0105_1_1_nc9j38e8_69782464.jpg?width=3200&height=1680&fit=crop", "5,2,5,3,1,2,5,4,4,2" )

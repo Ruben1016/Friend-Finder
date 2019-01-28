@@ -34,6 +34,9 @@ module.exports = function(app) {
 
     app.post("/api/friends", function(req, res){
         var friendsList;
+        for (i = 0; i < friendsList.length; i++) { 
+            text += friendsList[i] + "<br>";
+          }
         connection.query ("SELECT * FROM profiles", function (err, response) {
             if (err) {
             console.log(err);
